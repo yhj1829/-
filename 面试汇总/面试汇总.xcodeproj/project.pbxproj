@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095F94121DF518E300521C44 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F94111DF518E300521C44 /* FirstVC.m */; };
 		096A55131DF429C500236BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 096A55121DF429C500236BA3 /* main.m */; };
 		096A55161DF429C500236BA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 096A55151DF429C500236BA3 /* AppDelegate.m */; };
 		096A55191DF429C500236BA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096A55181DF429C500236BA3 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095F94101DF518E300521C44 /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		095F94111DF518E300521C44 /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
 		096A550E1DF429C500236BA3 /* 面试汇总.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "面试汇总.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		096A55121DF429C500236BA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		096A55141DF429C500236BA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				096A55151DF429C500236BA3 /* AppDelegate.m */,
 				096A55171DF429C500236BA3 /* ViewController.h */,
 				096A55181DF429C500236BA3 /* ViewController.m */,
+				095F94101DF518E300521C44 /* FirstVC.h */,
+				095F94111DF518E300521C44 /* FirstVC.m */,
 				096A551A1DF429C500236BA3 /* Main.storyboard */,
 				096A551D1DF429C500236BA3 /* Assets.xcassets */,
 				096A551F1DF429C500236BA3 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				096A55191DF429C500236BA3 /* ViewController.m in Sources */,
+				095F94121DF518E300521C44 /* FirstVC.m in Sources */,
 				096A55161DF429C500236BA3 /* AppDelegate.m in Sources */,
 				096A55131DF429C500236BA3 /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				096A553D1DF429C500236BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		096A553E1DF429C500236BA3 /* Build configuration list for PBXNativeTarget "面试汇总Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				096A55401DF429C500236BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		096A55411DF429C500236BA3 /* Build configuration list for PBXNativeTarget "面试汇总UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				096A55431DF429C500236BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
